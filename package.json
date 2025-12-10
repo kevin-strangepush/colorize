@@ -1,0 +1,16 @@
+{
+  "name": "@shellcrafts/colorize",
+  "version": "1.0.0",
+  "description": "Lightweight terminal color and theme utilities for shell prompt customization",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["terminal", "color", "ansi", "prompt", "theme", "shell", "cli", "customization"],
+  "author": "shellcrafts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shellcrafts/colorize"
+  }
+}
