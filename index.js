@@ -84,3 +84,4 @@ function strip(text) {
 }
 
 module.exports = { colorize, style, hex, bg, gradient, strip, ANSI, STYLES };
+
