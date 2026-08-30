@@ -29,10 +29,12 @@ assert("gradient preserves char count", strip(gradient("hello", "#FF0000", "#000
 assert("strip removes ANSI codes", strip("\x1b[31mhi\x1b[0m") === "hi");
 assert("strip handles clean text", strip("hello") === "hello");
 assert("strip handles nested styles", strip("\x1b[1m\x1b[31mbold red\x1b[0m") === "bold red");
+assert("strip handles empty string", strip("") === "");
 assert("colorize bright variant works", colorize("hi", "brightCyan").includes("\x1b[96m"));
 assert("hex preserves text content", strip(hex("#ABC123")("test")) === "test");
 assert("bg preserves text content", strip(bg("#123ABC")("test")) === "test");
 assert("gradient empty string", gradient("", "#FF0000", "#0000FF") === "\x1b[0m");
+assert("style dim applies correctly", style("hi", "dim").includes("\x1b[2m"));
 
 console.log(`\nResults: ${passed} passed, ${failed} failed`);
 process.exit(failed > 0 ? 1 : 0);
