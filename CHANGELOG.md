@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Minor formatting fixes
+
 ### Added
 - TypeScript type definitions (index.d.ts)
 - Comprehensive edge case test suite
