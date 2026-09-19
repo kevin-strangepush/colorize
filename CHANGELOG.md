@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.2.1] - 2026-09-19
 
 ### Changed
 - Minor formatting fixes
