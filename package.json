@@ -1,6 +1,6 @@
 {
   "name": "@shellcrafts/colorize",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Lightweight terminal color and theme utilities for shell prompt customization",
   "main": "index.js",
   "scripts": {
