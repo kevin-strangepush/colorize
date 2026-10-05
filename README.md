@@ -75,3 +75,7 @@ This is built specifically for shell prompt tools. It's tiny, has zero dependenc
 ## License
 
 MIT
+
+## Hex colors
+
+Use `hex("#ff8800")` for truecolor output.
